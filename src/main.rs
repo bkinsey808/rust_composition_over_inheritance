@@ -94,11 +94,10 @@ impl Killer for structName {
 }
 
 fn main() {
-    println!("Hello, world!");
     let fido = Dog { game_object: GameObject { name: "Fido".to_string(), position: 0, speed: 100 }};
     fido.poop();
 
-    let mut ralphKillah = MurderRobotDog { game_object: GameObject { name: "Ralph da killah".to_string(), position: 0, speed: 100 }};
-    ralphKillah.drive();
-    ralphKillah.drive();
+    let mut ralph_killah = MurderRobotDog { game_object: GameObject { name: "Ralph da killah".to_string(), position: 0, speed: 100 }};
+    ralph_killah.drive();
+    ralph_killah.drive();
 }
